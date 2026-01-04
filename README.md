@@ -238,13 +238,13 @@ EvilGoy is under active development.
 Planned:
 - Per-site profiles
 - UI polish
-- Public Chrome Web Store release
+- Public Chrome Web Store release (eventually)
 
 ---
 
 ## 📄 License
 
-MIT (or replace with your preferred license)
+MIT
 
 ---
 
