@@ -1,0 +1,7 @@
+[
+  { "id": 1, "priority": 1, "action": { "type": "block" }, "condition": { "urlFilter": "doubleclick.net" } },
+  { "id": 2, "priority": 1, "action": { "type": "block" }, "condition": { "urlFilter": "google-analytics.com" } },
+  { "id": 3, "priority": 1, "action": { "type": "block" }, "condition": { "urlFilter": "facebook.com/tr" } },
+  { "id": 4, "priority": 1, "action": { "type": "block" }, "condition": { "urlFilter": "tiktok.com" } },
+  { "id": 5, "priority": 1, "action": { "type": "block" }, "condition": { "urlFilter": "ads" } }
+]

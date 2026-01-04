@@ -1,0 +1,14 @@
+*{box-sizing:border-box;font-family:inherit}
+:root{--glow:1}
+body{width:330px;background:#0f0f0f;color:#f0f0f0;padding:10px;font-family:'Roboto Mono',monospace}
+body.light{background:#fff;color:#111}
+header{padding:8px;background:rgba(0,0,0,.85);box-shadow:0 0 20px rgba(0,255,255,.2);margin-bottom:8px}
+.card{background:#1a1a1a;border:2px solid currentColor;border-radius:12px;padding:10px;margin-bottom:8px;box-shadow:0 0 calc(10px*var(--glow)) currentColor}
+.card h2{text-shadow:0 0 12px currentColor;font-size:14px;margin-bottom:6px}
+.toggle{display:flex;align-items:center;gap:8px;margin:6px 0}
+.toggle span{width:34px;height:18px;border-radius:9px;border:2px solid currentColor;position:relative}
+.toggle span:after{content:'';position:absolute;width:12px;height:12px;top:1px;left:1px;border-radius:50%;background:currentColor;transition:.2s}
+.toggle input{display:none}
+.toggle input:checked+span:after{left:19px}
+.actions button{width:100%;padding:8px;border:2px solid currentColor;background:transparent;color:inherit;cursor:pointer;box-shadow:0 0 calc(12px*var(--glow)) currentColor}
+.stat{font-size:13px}
